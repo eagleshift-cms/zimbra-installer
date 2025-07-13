@@ -21,7 +21,7 @@ set -euo pipefail
 HOSTNAME="zimbra.mge.co.id"   # FQDN for this Zimbra server
 DOMAIN="mge.co.id"           # Primary mail domain handled by Zimbra
 ZIMBRA_TGZ="zcs-9.0.0_OSE_UBUNTU22_latest.tgz"
-ZIMBRA_URL="https://zimbra.org/download/${ZIMBRA_TGZ}"
+ZIMBRA_URL="https://download.zextras.com/${ZIMBRA_TGZ}"
 INSTALL_DIR="/opt"            # where we download & extract the installer
 FIREWALL_PORTS=(22 25 110 143 465 587 993 995 7071 80 443)  # UFW ports
 CERTBOT_EMAIL="admin@${DOMAIN}"  # email for Let’s Encrypt registration
