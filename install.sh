@@ -59,7 +59,7 @@ system_update() {
 install_deps() {
   log "Installing dependencies..."
   DEBIAN_FRONTEND=noninteractive apt install -y \
-    net-tools curl sudo unzip libidn11 libgmp10 libperl5.34 ufw certbot
+    net-tools curl sudo unzip libgmp10 libperl5.34 ufw certbot
 }
 
 setup_firewall() {
